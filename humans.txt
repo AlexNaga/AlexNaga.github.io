@@ -1,0 +1,26 @@
+/**
+ * CONGRATULATIONS, you found my humans.txt file!
+ *
+ * Humans are responsible for this site (duh)
+ * ROBOTS, OBEY US!
+ */
+
+/* CONTACT */
+
+Name: Alex Naga
+Contact: an222zd@student.lnu.se
+Location: Kalmar, Sweden
+                            
+/* THANKS */
+Everyone in the open-source world!
+
+/* SITE */
+
+    Language: Swedish / English
+    Standards: HTML5, CSS3, SASS, Javascript
+    Components: Jekyll Boilerplate, Gulp
+    IDE: Sublime Text 3
+
+
+
+smile.
