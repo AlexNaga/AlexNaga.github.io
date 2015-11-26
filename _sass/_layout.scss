@@ -98,8 +98,13 @@
 }
 
 .footer-heading {
-    font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+}
+
+.site-footer {
+    h2 {
+    font-size: 1em;
+    }
 }
 
 .contact-list,
@@ -156,8 +161,6 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
