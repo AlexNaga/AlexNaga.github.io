@@ -6,5 +6,7 @@ categories: web
 comments: true
 ---
 
-###Why would I use pre-compiled CSS?
-Implementing comments to the site 
+###Implementing comments to blog posts
+Implementing comments to the site went easy as pie!
+
+I used Disqus as recommended and created a free account on their site. I then embedded the html and javascript code according to their guide, into my site and it worked just fine.
