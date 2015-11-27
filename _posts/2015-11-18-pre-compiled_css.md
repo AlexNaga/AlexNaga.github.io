@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Open Graph"
-date:   2015-11-23
+title:  "Pre-compiled CSS"
+date:   2015-11-18
 categories: web
 comments: true
 ---
 
-###Using Open Graph
-Open Graph is a protocol used for easy sharing on social media.
+###Why would I use pre-compiled CSS?
+Pre-compiled CSS seems to make life *much* easier. It can be a hassle to get things up and running at first but afterwards it all works seamlessly smooth.
 
 ####<span style="color:green">+</span> Pros
 + The fact that you can use variables in the CSS-code should be more than enough to get you excited. Variables can be used to assign a hex-number to an easy-to-remember variable name.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Implementation of comments"
-date:   2015-11-26
+date:   2015-11-18
 categories: web
 comments: true
 ---

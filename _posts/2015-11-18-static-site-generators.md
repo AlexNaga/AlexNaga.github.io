@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Static Site Generators"
-date:   2015-11-26
+date:   2015-11-18
 categories: web
 comments: true
 ---
