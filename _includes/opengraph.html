@@ -1,15 +1,15 @@
-if page.title
+{% if page.title %}
     <meta property="og:title" content="(1DV022)" />
     <meta property="og:type" content="article" />
-else
+{% else %}
     <meta property="og:title" content="Alex Naga" />
     <meta property="og:type" content="website" />
-endif
+{% endif %}
 
-if page.description
+{% if page.description %}
     <meta property="og:description" content="Here is the answers to the questions for the first assignment in 1DV022 Client-based web programming. " />
-else
+{% else %}
     <meta property="og:description" content="This web site is created for the course 1DV022, at Linnaeus University" />
-endif
+{% endif %}
 
 <meta property="og:url" content="an222zd.github.io" />
