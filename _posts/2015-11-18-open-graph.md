@@ -14,5 +14,13 @@ So after some time Facebook and some other social media companies created a prot
 
 So today we have [Open Graph](http://www.ogp.me) and the world is a better place!
 
-###Using Open Graph
-Open Graph is a protocol used for easy sharing on social media. It creates a more presentable view of your site, showing the information that you added to the meta-tags.
+###Adding Open Graph Tags
+Open Graph is a protocol used for easy sharing on social media. It creates a more presentable view of your site. More simply, add **Open Graph meta tags** to your website to have greater control how your content is displayed when shared via social media.
+
+`<meta content="Title" property="og:title">`
+
+`<meta content="Type" property="og:type">`
+
+`<meta content="Image" property="og:image">`
+
+`<meta content="URL" property="og:url">`
