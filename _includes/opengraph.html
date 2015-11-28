@@ -1,15 +1,5 @@
-{% if page.title %}
-    <meta property="og:title" content="(1DV022)" />
-    <meta property="og:type" content="article" />
-{% else %}
-    <meta property="og:title" content="Alex Naga" />
-    <meta property="og:type" content="website" />
-{% endif %}
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
-{% if page.description %}
-    <meta property="og:description" content="Here is the answers to the questions for the first assignment in 1DV022 Client-based web programming. " />
-{% else %}
-    <meta property="og:description" content="This web site is created for the course 1DV022, at Linnaeus University" />
-{% endif %}
-
-<meta property="og:url" content="an222zd.github.io" />
+<meta property="og:site_name" content="{{ site.title }}">
