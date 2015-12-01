@@ -17,10 +17,11 @@ So today we have [Open Graph](http://www.ogp.me) and the world is a better place
 ###Adding Open Graph Tags
 Open Graph is a protocol used for easy sharing on social media. It creates a more presentable view of your site. More simply, add **Open Graph meta tags** to your website to have greater control how your content is displayed when shared via social media.
 
-`<meta content="Title" property="og:title">`
+####This is my meta tags
+`<meta property="og:title" content="Alex Naga - 1DV022">`
 
-`<meta content="Type" property="og:type">`
+`<meta property="og:type" content="website">`
 
-`<meta content="Image" property="og:image">`
+`<meta property="og:description" content="This website is created for the course 1DV022 at Linnaeus University">`
 
-`<meta content="URL" property="og:url">`
+`<meta property="og:url" content="an222zd.github.io">`
