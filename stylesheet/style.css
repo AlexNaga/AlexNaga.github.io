@@ -13,31 +13,27 @@ p {
     padding-bottom: 50px;
 }
 
-#divider {
+.dotDivider {
     font-size: 8em;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
 
-#dot1 {
+.dot1 {
     color: #BEEB9F;
 }
 
-#dot2 {
+.dot2 {
     color: #79BD8F;
 }
 
-#dot3 {
+.dot3 {
     color: #00A388;
 }
 
 main {
     margin-left: 100px;
     margin-right: 100px;
-    padding: 0px;
-}
-
-.textStyle {
     padding: 0px;
 }
 
@@ -54,9 +50,6 @@ main {
         padding-top: 30px;
         padding-bottom: 50px;
     }
-    .textStyle {
-        width: 95%;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -71,8 +64,5 @@ main {
         color: #FF6138;
         padding-top: 30px;
         padding-bottom: 50px;
-    }
-    .textStyle {
-        width: 95%;
     }
 }
