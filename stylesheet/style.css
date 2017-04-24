@@ -47,8 +47,8 @@ main {
         font-size: 4.5em;
         font-weight: 700;
         color: #FF6138;
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 }
 
@@ -62,7 +62,7 @@ main {
         font-size: 3em;
         font-weight: 700;
         color: #FF6138;
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 }
