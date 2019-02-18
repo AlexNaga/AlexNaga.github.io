@@ -1,25 +1,180 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
 <head>
     <title>Alex Naga</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet/style.css" rel="stylesheet">
-    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/code_favicon.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body>
-    <main>
-        <div class="dotDivider">
-            <span class="dot1">.</span><span class="dot2">.</span><span class="dot3">.</span>
-        </div>
+<body class="landing">
 
-        <p id="text">Hello, I'm Alex</p>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-        <div class="dotDivider">
-            <span class="dot1">.</span><span class="dot2">.</span><span class="dot3">.</span>
-        </div>
-    </main>
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="index.html">Alex Naga</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="#one" class="scrolly">Who Am I</a></li>
+                                <li><a href="#two" class="scrolly">Projects</a></li>
+                                <li><a href="#three" class="scrolly">Contact</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            <div id="particles-js" style="position:relative; height: 100%"></div>
+
+
+
+
+
+auto; left: 0; right: 0; pointer-events: none;">
+
+height="200"
+
+;">
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <a href="#one" class="more scrolly">Who Am I?</a>
+
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style1 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>Bytes about myself</h2>
+                    <p><b>Currently studying a Bachelor's degree in Web Development in Sweden.
+                            <br />Full-Stack development and Internet of Things enthusiast.</p>
+                    <!-- <p>I like building stuff.</p> -->
+                </header>
+                <ul class="icons major">
+                    <li>
+                        <a class="icon fa-linkedin major style1" href="https://linkedin.com/in/alexnaga"
+                            target="_blank"></a>
+
+                    </li>
+                    <li>
+                        <a class="icon fa-github major style1" href="https://github.com/AlexNaga" target="_blank"><span
+                                class="label"></a>
+
+                    </li>
+                    <li>
+                        <a class="icon fa-envelope major style1" href="mailto:alex.naga@hotmail.com"
+                            target="_blank"><span class="label"></a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper style2 special">
+            <div class="inner">
+                <header class="major" style="margin: 0">
+                    <h2>Side Projects</h2>
+                    <p>On my free time I like playing around with new technologies and frameworks.</p>
+                    <p>Mainly on the JS realm.
+                        <p />
+                        <div style="margin-top: 25px" class="12u$">
+                            <ul class="actions">
+                                <li>
+                                    <a href="https://github.com/AlexNaga?tab=repositories" target="_blank"
+                                        class="button">Check Them Out!</a>
+                                </li>
+                            </ul>
+                        </div>
+                </header>
+            </div>
+        </section>
+
+        <!--Three-->
+        <section id="three" class="wrapper style4">
+            <div class="inner" style="text-align: center">
+                <header>
+                    <h2>Contact</h2>
+                </header>
+                <!-- <form id="contactForm" onsubmit="return onContactSubmission()"> -->
+                <!-- <form method="POST" action="https://formspree.io/alex.naga@hotmail.com">
+                    <div class="row uniform">
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="name" id="name" value="" placeholder="Name" />
+                        </div>
+                        <div class="6u$ 12u$(xsmall)">
+                            <input type="email" name="email" id="email" value="" placeholder="Email" />
+                        </div>
+                        <div class="12u$">
+                            <textarea name="demo-message" id="message" placeholder="Enter your message"
+                                rows="6"></textarea>
+                        </div>
+                        <div class="12u$">
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" class="special" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form> -->
+
+                <!-- <form method="POST" action="">
+                    <input type="email" name="email" placeholder="Your email">
+                    <textarea name="message" placeholder="Test Message"></textarea>
+                    <button type="submit">Send Test</button>
+                </form> -->
+
+                <form action="https://formspree.io/alex.naga@hotmail.com" method="POST">
+                    <input type="text" name="name">
+                    <input type="email" name="_replyto">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134677774-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134677774-1');
+    </script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/notify.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
