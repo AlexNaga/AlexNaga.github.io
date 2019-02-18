@@ -6,7 +6,7 @@ setTimeout(function () {
                     "value": 67,
                     "density": {
                         "enable": true,
-                        "value_area": 800
+                        "value_area": 1000
                     }
                 },
                 "color": {
@@ -113,53 +113,3 @@ setTimeout(function () {
 
 }
     , 1000);
-
-
-
-function onContactSubmission() {
-    // Get field values
-    var data = {
-        "name": $("input#name").val(),
-        "email": $("input#email").val(),
-        "message": $("textarea#message").val()
-    };
-
-    if (data.name !== '' && data.email !== '' && data.message !== '') {
-        // Execute ajax to AWS API gateway
-        $.ajax({
-            type: 'POST',
-            url: "https://formspree.io/alex.naga@hotmail.com,
-            dataType: 'json',
-            contentType: 'application/json',
-            data: JSON.stringify(data),
-            success: function () {
-                $.notify(
-                    "Email successfully send",
-                    {
-                        position: 'bottom-right',
-                        className: 'success',
-                        autoHideDelay: 3000,
-                    }
-                );
-
-                // Reset form
-                var form = document.getElementById("contactForm");
-                form.reset();
-            },
-            error: function () {
-                $.notify(
-                    "Error sending email",
-                    {
-                        position: 'bottom-right',
-                        className: 'error',
-                        autoHideDelay: 3000,
-                    }
-                );
-            }
-        })
-
-    }
-
-    // handle responses
-    return false;
-}
